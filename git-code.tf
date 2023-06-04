@@ -8,7 +8,7 @@ resource "aws_instance" "tharun" {
   ami                    = "ami-07d3a50bd29811cd1"
   instance_type          = "t2.micro"
   key_name               = "Jenkin-keypair"
-  vpc_security_group_ids = ["sg-0f557f0fa4b8a894d"]
+  vpc_security_group_ids = ["sg-096bd68fba56ed180"]
   subnet_id              = "subnet-09cc83694c0efb9d6"
 
   tags = {
